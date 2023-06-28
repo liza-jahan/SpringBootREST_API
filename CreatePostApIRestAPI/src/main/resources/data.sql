@@ -1,0 +1,5 @@
+insert into user_details(id,birth_date,name)values (10001,current_date(),'Mila')
+insert into user_details(id,birth_date,name)values (10002,current_date(),'Nila')
+insert into user_details(id,birth_date,name)values (10003,current_date(),'kila')
+insert into post(id,description,user_id)values (20001,'I want to learn english',10001)
+insert into post(id,description,user_id)values (20002,'I want to learn Bangla',10001)
